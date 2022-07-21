@@ -276,7 +276,8 @@
                 const id = $(this).data('id');
 
                 $.ajax({
-                    url: 'http://localhost:8000/products/' + id,
+                    url: 'https://admin-dashboard-seema-production.up.railway.app/products/' +
+                        id,
                     method: 'GET',
                     dataType: 'json',
                     success: function (val) {

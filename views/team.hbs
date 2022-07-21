@@ -261,7 +261,7 @@
         const id = $(this).data('id');
         console.log(id);
         $.ajax({
-          url: 'http://localhost:8000/teams/' + id,
+          url: 'https://admin-dashboard-seema-production.up.railway.app/teams/' + id,
           method: 'GET',
           dataType: 'json',
           success: function (val) {

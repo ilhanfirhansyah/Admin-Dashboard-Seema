@@ -37,7 +37,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/assets', express.static(__dirname + '/public'));
 
 var corsOptions = {
-  origin: ['http://localhost:8000'],
+  origin: ['https://admin-dashboard-seema-production.up.railway.app'],
 };
 
 app.use(cors(corsOptions));
