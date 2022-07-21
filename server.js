@@ -182,6 +182,6 @@ app.get('/logout', function (req, res) {
   res.redirect('/login');
 });
 
-app.listen(8000, () => {
-  console.log('Server is running at port 8000');
+app.listen(80, () => {
+  console.log('Server is running at port 80');
 });
