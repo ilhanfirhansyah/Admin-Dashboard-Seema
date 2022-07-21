@@ -12,9 +12,9 @@ hbs.registerHelper('inc', function (value, options) {
 });
 
 const conn = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
+  host: '128.199.95.116',
+  user: 'admin',
+  password: 'admin',
   database: 'semaa_coffee_db',
 });
 
