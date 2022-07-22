@@ -12,10 +12,11 @@ hbs.registerHelper('inc', function (value, options) {
 });
 
 const conn = mysql.createConnection({
-  host: '128.199.95.116',
-  user: 'admin',
-  password: 'admin',
-  database: 'semaa_coffee_db',
+  host: 'containers-us-west-46.railway.app',
+  user: 'root',
+  password: 'a1upkr3nSGi8nG2IAaDt',
+  database: 'railway',
+  port: '6227',
 });
 
 conn.connect((err) => {
